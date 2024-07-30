@@ -26,7 +26,7 @@ def calculate_cvar(returns, confidence_level=0.95):
 
 # Team Harbour Landing Page with Loading Progress Bar
 st.title("Welcome to Team Harbour's Portfolio Optimization Tool")
-st.write("Optimize your portfolio for minimal risk and maximize your returns with our advanced analytics tool.")
+st.write("Optimize your portfolio for minimal risk with our advanced analytics tool.")
 
 progress_bar = st.progress(0)
 status_text = st.empty()
